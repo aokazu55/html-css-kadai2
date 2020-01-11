@@ -1,0 +1,119 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+}
+
+header {
+  background-color: #3c3c3c;
+  height: 5rem;
+}
+.parent{
+  position: relative;
+}
+
+.main-header img {
+  width: 20%;
+  min-width: 13rem;
+  position: absolute;
+  top: 40%;
+  transform : translate(-50%);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li[class="left"] {
+  display: inline-block;
+  float: left;
+  margin: 0.7rem 1.2rem;
+}
+
+li[class="right"] {
+  display: inline-block;
+  float: right;
+  margin: 0.7rem 1.2rem;
+}
+
+.about {
+  height: 11.5rem;
+}
+
+.about p {
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.function {
+  background-color: #d3d3d3;
+  height: 27rem;
+  width: 100%;
+}
+
+.function h1 {
+  padding-top: 1.5rem;
+}
+
+.function-images {
+  display: flex;
+  justify-content: center;
+  background: #d3d3d3;
+  font-weight: bold;
+
+}
+
+.function-image {
+  margin: 4rem 3rem;
+  justify-content: center;
+}
+
+.function p {
+  font-size: 0.6rem;
+}
+
+footer {
+  background-color: #2e2930;
+  height: 5rem;
+  width: 100%;
+  display: table;
+}
+
+.company {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.info {
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
